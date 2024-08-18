@@ -1,6 +1,5 @@
 #include <iostream>
 
-
 using namespace std;
 
 void Rock_Scissors_Paper()
@@ -95,6 +94,6 @@ void TextRPG()
 
 void main()
 {
-	//Rock_Scissors_Paper();
-	TextRPG();
+	//Rock_Scissors_Paper(); // 가위바위보 게임
+	TextRPG(); // 텍스트RPG
 }
