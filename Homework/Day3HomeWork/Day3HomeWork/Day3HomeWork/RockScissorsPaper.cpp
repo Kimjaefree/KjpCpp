@@ -62,6 +62,12 @@ void TextRPG()
 			player_Exp = 0; // 레벨업을 위한 플레이어 경험치 양 초기화
 		}
 
+		if (playerLevel == 10)
+		{
+			printf("던전 탈출에 성공하였습니다! 다음 모험에도 건투를 빕니다!");
+			end =1;
+		}
+
 		printf("플레이어는 %d레벨 입니다.\n", playerLevel);
 		printf("던전에 입장하였습니다.\n");
 		printf("%d 레벨 초록달팽이와 조우하였습니다 `ㅁ`\n", monsterLevel);
