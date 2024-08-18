@@ -95,9 +95,9 @@ void odd_even_discriminator()
 
 void main()
 {
-	BMI_Program();
-	grade_System();
-	odd_even_discriminator();
+	BMI_Program(); //Day2 1¹ø¼÷Á¦
+	grade_System(); //Day2 2¹ø¼÷Á¦
+	odd_even_discriminator(); //Day3 3¹ø¼÷Á¦
 }
 
 
